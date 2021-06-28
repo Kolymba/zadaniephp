@@ -1,5 +1,6 @@
 <?php
 $_lang = array (
+  'key7' => '1',
   'key1' => 'texte',
   'key2' => 'texte2',
   'key3' => 'texte3',

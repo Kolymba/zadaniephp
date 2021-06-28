@@ -26,27 +26,6 @@ if (file_exists($file)) {
     include $file;
 }
 
-$lang_list1 = "не выбрано";
-$lang_list2 = "не выбрано";
-if (isset($_GET["list1"])){
-    $lang_list1 = $_GET["list1"];
-}
-if (isset($_GET["list2"])){
-    $lang_list2 = $_GET["list2"];
-}
-
-$file_lang = '../lang_files/lang_files_'.$lang_list1.'.php';
-if (file_exists($file_lang)) {
-    $is_set_page = true;
-    include $file_lang;
-}
-
-$file_lang2 = '../lang_files/lang_files_'.$lang_list2.'.php';
-if (file_exists($file_lang2)) {
-    $is_set_page = true;
-    include $file_lang2;
-}
-
 $file = '../views/'.$page.'.php';
 if (file_exists($file)) {
     $is_set_page = true;

@@ -14,7 +14,7 @@
             <div class="wrapper">
                 <div class="section">
                     <?php   
-                        echo '<div>Форма сохранена</div>';                                  
+                        echo '<div>Форма сохранена</div>';                                             
                     ?>
                 </div> 
             </div>                 
