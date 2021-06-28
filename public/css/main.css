@@ -102,3 +102,15 @@ ul {
 .a,.d {
     margin-left:auto;
 }
+.success{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+    padding: 10em;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+}
