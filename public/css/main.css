@@ -77,23 +77,32 @@ table {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.5em;
     border-bottom: 1px solid black;
 }
 .text1{
-    width: 50%;
-   }
+    width: 33%;
+    word-wrap: break-word;
+    padding: 0.5em; 
+}
+.text2{
+    width: 33%;    
+    word-wrap: break-word;
+    padding: 0.5em; 
+}
 .textarea2{
-    width: 50%;
+    width: 33%;
+    word-wrap: break-word;
+    padding: 0.5em; 
 }
 .textarea_content{
     width: 100%;
+    overflow: hidden;
+    outline: none;
 }
 .section_header{
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid black;
-    padding: 0.5em;;
 }
 ul {
     display:flex;
@@ -113,4 +122,16 @@ ul {
 .section2{
     display: flex;
     justify-content: center;
+}
+#result{
+    padding: 0.5em;
+    width: 33%;
+}
+#result2{
+    padding: 0.5em;
+    width: 33%;
+}
+#result3{
+    padding: 0.5em;
+    width: 33%;
 }

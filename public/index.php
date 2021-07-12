@@ -32,7 +32,7 @@ if (file_exists($file)) {
     include $file;
 }
 
-if (!$is_set_page) {
+ if (!$is_set_page) {
     header("HTTP/1.0 404 Not Found"); 
     die;
 }
